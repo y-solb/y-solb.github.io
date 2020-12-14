@@ -7,15 +7,11 @@ categories: React
 
 # Component
 
-<li>가독성</li>
-<li>재사용성</li>
-<li>유지보수</li>
+-   가독성
+-   재사용성
+-   유지보수
 
----
-
--   빨강
-    -   녹색
-        -   파랑
+<br>
 
 ## 일반 html파일
 
@@ -43,6 +39,7 @@ categories: React
 </html>
 ```
 
+<br>
 ## React로 변경
 
 ### App.js
