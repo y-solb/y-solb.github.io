@@ -5,7 +5,7 @@ date: 2020-12-14 17:48:36 +0530
 categories: React
 ---
 
-### \* 필요한 파일
+### 필요한 파일
 
 -   node.js
 -   npm
