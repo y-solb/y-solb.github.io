@@ -2,7 +2,7 @@
 layout: post
 title: "[etc] 카멜 표기법, 파스칼 표기법, 스네이크 표기법"
 date: 2020-12-18 22:51:47 +0530
-categories: Other
+categories: etc
 ---
 
 ### 카멜 표기법
