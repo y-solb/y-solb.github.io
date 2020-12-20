@@ -5,13 +5,6 @@ date: 2020-12-19 10:17:48 +0530
 categories: React
 ---
 
-# ???
-
--   소문자 대신 캐멀 케이스(camelCase)를 사용
--   JSX를 사용하여 문자열이 아닌 함수로 이벤트 핸들러를 전달
-
-    <br>
-
 ### App.js
 
 CreateContent생성
