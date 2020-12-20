@@ -9,10 +9,15 @@ categories: React
 
 -   속성을 나타내는 데이터
 -   component를 외부에서 조작할 때 사용(사용자에게 공개)
+-   read only (수정할 수 없음)
 
 # State
 
 -   내부적으로 상태를 관리할 때 사용
+-   수정이 가능함 (this.setState로 내부적인 상태 관리)
+
+props와 state 모두 render 함수 호출을 유발
+
     <br>
 
 ## 일반 html파일

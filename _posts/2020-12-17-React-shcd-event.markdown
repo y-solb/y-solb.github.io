@@ -10,33 +10,10 @@ categories: React
 -   소문자 대신 캐멀 케이스(camelCase)를 사용
 -   JSX를 사용하여 문자열이 아닌 함수로 이벤트 핸들러를 전달
 
-    <br>
+상위 컴포가 하위로 값을 전달할 때는 props를 통해 전달  
+하위 컴포가 상위 컴포의 값을 전달할 때는 event를 통해 상위 state의 값의 호출을 통해 바뀜
 
-## 일반 html파일
-
-```html
-<html>
-    <body>
-        <header>
-            <h1>WEB</h1>
-            World Wide Web!
-        </header>
-
-        <nav>
-            <ul>
-                <li><a href="1.html">HTML</a></li>
-                <li><a href="2.html">CSS</a></li>
-                <li><a href="3.html">JavaScript</a></li>
-            </ul>
-        </nav>
-
-        <article>
-            <h2>HTML</h2>
-            HTML is HyperText Markup Language.
-        </article>
-    </body>
-</html>
-```
+redux는 하나의 데이터 저장소가 있어 관련 데이터가 바뀌면 다같이 바뀜
 
 <br>
 
