@@ -11,6 +11,11 @@ show_excerpts: false # set to true to show excerpts on the homepage
 sass:
     sass_dir: _sass
 plainwhite:
+    navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
     name: Yoon Solbi
     tagline: Developer. Beginner
     date_format: "%b %-d, %Y"
@@ -53,6 +58,10 @@ plainwhite:
 # Build settings
 #theme: plainwhite
 
+
+
 plugins:
     - jekyll-seo-tag
 #  - jekyll-feed
+
+show_excerpts: true
