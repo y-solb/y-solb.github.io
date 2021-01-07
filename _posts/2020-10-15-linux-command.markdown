@@ -7,11 +7,13 @@ categories: Linux
 
 ## pwd
 
-현재 위치의 경로 (print working directory)
-
 ---
 
+현재 위치의 경로 (print working directory)
+
 ## ls
+
+---
 
 현재 디렉토리에 어떤 파일이 있는지 확인 (list)
 
@@ -23,9 +25,9 @@ categories: Linux
 
 #### ls -t 파일 작성 시간 순으로 표시(내림차순)
 
----
-
 ## cd
+
+---
 
 디렉토리 이동 (change directory)
 
@@ -35,22 +37,20 @@ categories: Linux
 
 #### cd ~ 홈 디렉토리로 이동
 
----
-
 ## mkdir
+
+---
 
 디렉토리 만들기 (make directory)
 
----
-
 ## rm
+
+---
 
 디렉토리/파일 삭제 (remove)
 
----
-
 ## cp
 
-디렉토리/파일을 복사 (copy)
-
 ---
+
+디렉토리/파일을 복사 (copy)

@@ -9,9 +9,9 @@ categories: CSS
 
 100vh(view height를 100%로 쓰겠다)
 
----
-
 # Container
+
+---
 
 display/flex-direction/flex-wrap/flex-flow/justify-content/align-items/align-content
 
@@ -69,9 +69,9 @@ flex-flow: column nowrap;
 -   space-between : 맨 위와 아래는 딱 맞게 배치하고 중간에 space
 -   center : 중앙 배치
 
----
-
 # Item
+
+---
 
 order/flex-grow/flex-shrink/flex-basis/align-self
 
