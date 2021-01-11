@@ -21,6 +21,8 @@ redux는 하나의 데이터 저장소가 있어 관련 데이터가 바뀌면 �
 
 ### App.js
 
+---
+
 -   event 추가
 
 ```javascript
@@ -107,6 +109,8 @@ setState : state값을 직접 변경하면 안되고 setState를 사용해야함
 
 ### Subject.js
 
+---
+
 -   event 추가
 
 ```javascript
@@ -140,6 +144,8 @@ export default Subject; //Subject를 내보내기
 ```
 
 ### TOC.js
+
+---
 
 -   event 추가
 
@@ -181,6 +187,8 @@ export default TOC;
 
 -   간략하게
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -217,6 +225,8 @@ export default TOC;
 ```
 
 ### Content.js
+
+---
 
 ```javascript
 import React, { Component } from "react";

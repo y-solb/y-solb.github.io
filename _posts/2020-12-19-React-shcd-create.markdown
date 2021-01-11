@@ -7,6 +7,8 @@ categories: React
 
 ### App.js
 
+---
+
 CreateContent생성
 
 push - 원본을 바꿈  
@@ -114,6 +116,8 @@ export default App;
 
 ### Subject.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -145,6 +149,8 @@ export default Subject; //Subject를 내보내기
 ```
 
 ### TOC.js
+
+---
 
 shouldComponentupdate - render이전에 실행된다  
 true면 render호출되고  
@@ -198,6 +204,8 @@ export default TOC;
 
 ### Control.js
 
+---
+
 create / update / delete
 
 ```javascript
@@ -249,6 +257,8 @@ export default Control;
 
 ### CreateContent.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -284,6 +294,8 @@ export default CreateContent;
 ```
 
 ### ReadContent.js
+
+---
 
 ```javascript
 import React, { Component } from "react";

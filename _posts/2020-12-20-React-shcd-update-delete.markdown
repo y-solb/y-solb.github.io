@@ -7,6 +7,8 @@ categories: React
 
 ### App.js
 
+---
+
 ```javascript
 import "./App.css";
 import Subject from "./components/Subject"; //components폴더 아래 Subject파일에서 Subject를 import
@@ -152,6 +154,8 @@ export default App;
 
 ### Subject.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -183,6 +187,8 @@ export default Subject; //Subject를 내보내기
 ```
 
 ### TOC.js
+
+---
 
 ```javascript
 import React, { Component } from "react";
@@ -228,6 +234,8 @@ export default TOC;
 ```
 
 ### Control.js
+
+---
 
 create / update / delete
 
@@ -280,6 +288,8 @@ export default Control;
 
 ### CreateContent.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -316,6 +326,8 @@ export default CreateContent;
 
 ### ReadContent.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -334,6 +346,8 @@ export default ReadContent;
 ```
 
 ### UpdateContent.js
+
+---
 
 ```javascript
 import React, { Component } from "react";

@@ -22,6 +22,8 @@ props와 state 모두 render 함수 호출을 유발
 
 ## 일반 html파일
 
+---
+
 ```html
 <html>
     <body>
@@ -51,6 +53,8 @@ props와 state 모두 render 함수 호출을 유발
 ## React로 변경
 
 ### App.js
+
+---
 
 -   state 추가
 
@@ -90,6 +94,8 @@ export default App;
 
 ### Subject.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -110,6 +116,8 @@ export default Subject; //Subject를 내보내기
 ```
 
 ### TOC.js
+
+---
 
 -   state 추가
 
@@ -141,6 +149,8 @@ export default TOC;
 ```
 
 ### Content.js
+
+---
 
 ```javascript
 import React, { Component } from "react";

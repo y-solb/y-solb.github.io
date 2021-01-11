@@ -15,6 +15,8 @@ categories: React
 
 ## 일반 html파일
 
+---
+
 ```html
 <html>
     <body>
@@ -45,6 +47,8 @@ categories: React
 
 ### App.js
 
+---
+
 ```javascript
 import "./App.css";
 import Subject from "./components/Subject"; //components폴더 아래 Subject파일에서 Subject를 import
@@ -73,6 +77,8 @@ pros(properties)
 
 ### Subject.js
 
+---
+
 ```javascript
 import React, { Component } from "react";
 
@@ -93,6 +99,8 @@ export default Subject; //Subject를 내보내기
 ```
 
 ### TOC.js
+
+---
 
 ```javascript
 import React, { Component } from "react";
@@ -121,6 +129,8 @@ export default TOC;
 ```
 
 ### Content.js
+
+---
 
 ```javascript
 import React, { Component } from "react";
