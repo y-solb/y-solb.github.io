@@ -13,9 +13,9 @@ categories: CSS
 
 ---
 
-display/flex-direction/flex-wrap/flex-flow/justify-content/align-items/align-content
+display/flex-direction/flex-wrap/flex-flow/justify-content/align-content/align-items
 
-중심축(main axis)와 반대축(cross axis)
+주축(main axis)과 교차축(cross axis)
 
 ### display
 
@@ -26,6 +26,8 @@ display/flex-direction/flex-wrap/flex-flow/justify-content/align-items/align-con
 
 ### flex-direction
 
+items을 주축으로 설정한다.
+
 -   row : 수평 중심축 (왼쪽 ~> 오른쪽)
 -   row-reverse : (오른쪽 ~> 왼쪽)
 -   column : 수직 중심축 (위 ~> 아래)
@@ -35,9 +37,9 @@ display/flex-direction/flex-wrap/flex-flow/justify-content/align-items/align-con
 
 item이 한줄에 꽉차게 되면 다음 줄로 넘어가게 해준다
 
--   nowrap : wrap하지 않음
+-   nowrap : wrap하지 않음 (한 줄에 나옴)
 -   wrap : wrap되어 한줄에 꽉차면 다음줄로 넘어간다.
--   wrap-reverse : 순서가 반대로 wraping
+-   wrap-reverse : 순서가 반대로 wrap
 
 ### flex-flow
 
@@ -51,23 +53,35 @@ flex-flow: column nowrap;
 
 ### justify-content
 
-중심축에서 item을 어떻게 배치할것인지 (main axis)
+주축에서 item을 어떻게 배치할것인지 (main axis)
 
--   flex-start : 왼쪽으로 배치(순서는 유지)
--   flex-end : 오른쪽으로 배치
+-   flex-start : 시작부터 배치(순서는 유지)
+-   flex-end : 끝부터 배치
 -   center : 중앙 배치
 -   space-around : item을 둘러싼 space를 만들어줌
 -   space-evenly : 똑같은 간격으로 둘러쌈
 -   space-between : 맨 왼쪽과 오른쪽은 딱 맞게 배치하고 중간에 space
 
-### align-items
-
--   baseline : text가 균일하게 보여지도록
-
 ### align-content
 
--   space-between : 맨 위와 아래는 딱 맞게 배치하고 중간에 space
+교차축의 정렬 방법(두 줄 이상)
+
+-   stretch : Container에 맞춰서 늘어남
+-   flex-start : 시작을 기준으로 정렬
+-   flex-end : 끝을 기준으로 정렬
 -   center : 중앙 배치
+-   space-between : 맨 위와 아래는 딱 맞게 배치하고 중간에 space
+-   space-around : item을 둘러싼 space를 만들어줌
+
+### align-items
+
+교차축의 정렬 방법(한 줄)
+
+-   stretch : Container에 맞춰서 늘어남
+-   flex-start : 시작을 기준으로 정렬
+-   flex-end : 끝을 기준으로 정렬
+-   center : 중앙 배치
+-   baseline : text가 균일하게 보여지도록
 
 # Item
 
@@ -77,7 +91,11 @@ order/flex-grow/flex-shrink/flex-basis/align-self
 
 ### order
 
--   숫자 : 위치를 지정할 수 있음
+숫자로 위치를 지정할 수 있음(클수록 뒤에)
+
+```css
+order: 숫자;
+```
 
 ### flex-grow
 
@@ -92,7 +110,7 @@ order/flex-grow/flex-shrink/flex-basis/align-self
 item들이 공간을 얼마나 차지하는 세부적으로 명시
 
 -   auto : flex-grow와 flex-shrink에 따라 변형
--   숫자% : %에 따라서 비율이 지정
+-   숫자 : 숫자에 따라서 비율이 지정
 
 ### align-self
 
