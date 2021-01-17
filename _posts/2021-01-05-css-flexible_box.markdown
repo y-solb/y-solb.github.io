@@ -28,10 +28,10 @@ display/flex-direction/flex-wrap/flex-flow/justify-content/align-content/align-i
 
 items을 주축으로 설정한다.
 
--   row : 수평 중심축 (왼쪽 ~> 오른쪽)
--   row-reverse : (오른쪽 ~> 왼쪽)
--   column : 수직 중심축 (위 ~> 아래)
--   column-reverse : (아래 ~> 위)
+-   row : 수평 중심축 (왼쪽 -> 오른쪽)
+-   row-reverse : (오른쪽 -> 왼쪽)
+-   column : 수직 중심축 (위 -> 아래)
+-   column-reverse : (아래 -> 위)
 
 ### flex-wrap
 
@@ -43,9 +43,10 @@ item이 한줄에 꽉차게 되면 다음 줄로 넘어가게 해준다
 
 ### flex-flow
 
--   한줄에 표현이 가능하다
+-   flex-direction flex wrap 한 줄에 표현한다.
 
 ```css
+/*flex-flow: flex-direction flex wrap;*/
 flex-flow: column nowrap;
 ```
 
@@ -99,15 +100,15 @@ order: 숫자;
 
 ### flex-grow
 
-컨테이너를 채울때 얼마나 커질지(비율로 지정)
+Container를 채울때 얼마나 커질지(비율로 지정)
 
 ### flex-shrink
 
-컨테이너가 작아졌을때 얼마나 작아질지(비율로 지정)
+Container가 작아졌을때 얼마나 작아질지(비율로 지정)
 
 ### flex-basis
 
-item들이 공간을 얼마나 차지하는 세부적으로 명시
+item들의 크기 결정
 
 -   auto : flex-grow와 flex-shrink에 따라 변형
 -   숫자 : 숫자에 따라서 비율이 지정
@@ -115,3 +116,5 @@ item들이 공간을 얼마나 차지하는 세부적으로 명시
 ### align-self
 
 아이템 별로 아이템을 정렬할 수 있음
+
+##### [참고 자료 - https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox%EC%9D%98_%EA%B8%B0%EB%B3%B8_%EA%B0%9C%EB%85%90]
