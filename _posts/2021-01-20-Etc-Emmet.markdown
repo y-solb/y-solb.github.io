@@ -1,0 +1,162 @@
+---
+layout: post
+title: "Emmet 사용법"
+date: 2021-01-20 21:13:02 +0530
+categories: Etc
+---
+
+# Emmet
+
+html등의 문서를 편집할 때 빠른 코딩을 도와준다.
+
+입력 후 tab키를 눌러주면 자동완성된다!
+
+## 기본 html
+
+---
+
+## !
+
+tab키를 누르면
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+```
+
+## 태그 자동완성
+
+---
+
+### div
+
+```html
+<div></div>
+```
+
+### div.aa
+
+### div#bb
+
+```html
+<div class="aa"></div>
+<div id="bb"></div>
+```
+
+## 태그 자동완성
+
+---
+
+### div>ul>li
+
+```html
+<div>
+  <ul>
+    <li></li>
+  </ul>
+</div>
+```
+
+### div>ul+ol
+
+```html
+<div>
+  <ul></ul>
+  <ol></ol>
+</div>
+```
+
+### ul>li\*6
+
+6개 반복 출력
+
+```html
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+```
+
+### div>ul>li^ol
+
+```html
+<div>
+  <ul>
+    <li></li>
+  </ul>
+  <ol></ol>
+</div>
+```
+
+### div>(header>ul>li\*2>a)+footer>p
+
+()로 그룹핑해준다.
+
+```html
+<div>
+  <header>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </header>
+  <footer>
+    <p></p>
+  </footer>
+</div>
+```
+
+## 텍스트 생성
+
+---
+
+### p{hi}
+
+```html
+<p>hi</p>
+```
+
+## 차례대로 생성
+
+---
+
+### p.class${item $}\*4
+
+```html
+<p class="class1">item 1</p>
+<p class="class2">item 2</p>
+<p class="class3">item 3</p>
+<p class="class4">item 4</p>
+```
+
+## 글 생성
+
+---
+
+### p>lorem
+
+```html
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint possimus laborum quae harum a quidem explicabo deleniti
+  atque recusandae maxime pariatur rerum, neque voluptas dolorem eum nobis. Nesciunt, esse nihil?
+</p>
+```
+
+### p>lorem3
+
+단어 3개만 출력
+
+```html
+<p>Lorem, ipsum dolor.</p>
+```
