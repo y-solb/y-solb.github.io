@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[CSS] Flexible box"
+title: "Flexible box"
 date: 2021-01-05 20:30:28 +0530
 categories: CSS
 ---
@@ -21,29 +21,29 @@ display/flex-direction/flex-wrap/flex-flow/justify-content/align-content/align-i
 
 너 이제부터 flexbox야!
 
--   flex : 수직방향 쌓기(block)
--   inline-flex : 수평방향 쌓기(inline)
+- flex : 수직방향 쌓기(block)
+- inline-flex : 수평방향 쌓기(inline)
 
 ### flex-direction
 
 items을 주축으로 설정한다.
 
--   row : 수평 중심축 (왼쪽 -> 오른쪽)
--   row-reverse : (오른쪽 -> 왼쪽)
--   column : 수직 중심축 (위 -> 아래)
--   column-reverse : (아래 -> 위)
+- row : 수평 중심축 (왼쪽 -> 오른쪽)
+- row-reverse : (오른쪽 -> 왼쪽)
+- column : 수직 중심축 (위 -> 아래)
+- column-reverse : (아래 -> 위)
 
 ### flex-wrap
 
 item이 한줄에 꽉차게 되면 다음 줄로 넘어가게 해준다
 
--   nowrap : wrap하지 않음 (한 줄에 나옴)
--   wrap : wrap되어 한줄에 꽉차면 다음줄로 넘어간다.
--   wrap-reverse : 순서가 반대로 wrap
+- nowrap : wrap하지 않음 (한 줄에 나옴)
+- wrap : wrap되어 한줄에 꽉차면 다음줄로 넘어간다.
+- wrap-reverse : 순서가 반대로 wrap
 
 ### flex-flow
 
--   flex-direction flex wrap 한 줄에 표현한다.
+- flex-direction flex wrap 한 줄에 표현한다.
 
 ```css
 /*flex-flow: flex-direction flex wrap;*/
@@ -56,33 +56,33 @@ flex-flow: column nowrap;
 
 주축에서 item을 어떻게 배치할것인지 (main axis)
 
--   flex-start : 시작부터 배치(순서는 유지)
--   flex-end : 끝부터 배치
--   center : 중앙 배치
--   space-around : item을 둘러싼 space를 만들어줌
--   space-evenly : 똑같은 간격으로 둘러쌈
--   space-between : 맨 왼쪽과 오른쪽은 딱 맞게 배치하고 중간에 space
+- flex-start : 시작부터 배치(순서는 유지)
+- flex-end : 끝부터 배치
+- center : 중앙 배치
+- space-around : item을 둘러싼 space를 만들어줌
+- space-evenly : 똑같은 간격으로 둘러쌈
+- space-between : 맨 왼쪽과 오른쪽은 딱 맞게 배치하고 중간에 space
 
 ### align-content
 
 교차축의 정렬 방법(두 줄 이상)
 
--   stretch : Container에 맞춰서 늘어남
--   flex-start : 시작을 기준으로 정렬
--   flex-end : 끝을 기준으로 정렬
--   center : 중앙 배치
--   space-between : 맨 위와 아래는 딱 맞게 배치하고 중간에 space
--   space-around : item을 둘러싼 space를 만들어줌
+- stretch : Container에 맞춰서 늘어남
+- flex-start : 시작을 기준으로 정렬
+- flex-end : 끝을 기준으로 정렬
+- center : 중앙 배치
+- space-between : 맨 위와 아래는 딱 맞게 배치하고 중간에 space
+- space-around : item을 둘러싼 space를 만들어줌
 
 ### align-items
 
 교차축의 정렬 방법(한 줄)
 
--   stretch : Container에 맞춰서 늘어남
--   flex-start : 시작을 기준으로 정렬
--   flex-end : 끝을 기준으로 정렬
--   center : 중앙 배치
--   baseline : text가 균일하게 보여지도록
+- stretch : Container에 맞춰서 늘어남
+- flex-start : 시작을 기준으로 정렬
+- flex-end : 끝을 기준으로 정렬
+- center : 중앙 배치
+- baseline : text가 균일하게 보여지도록
 
 # Item
 
@@ -110,8 +110,8 @@ Container가 작아졌을때 얼마나 작아질지(비율로 지정)
 
 item들의 크기 결정
 
--   auto : flex-grow와 flex-shrink에 따라 변형
--   숫자 : 숫자에 따라서 비율이 지정
+- auto : flex-grow와 flex-shrink에 따라 변형
+- 숫자 : 숫자에 따라서 비율이 지정
 
 ### align-self
 

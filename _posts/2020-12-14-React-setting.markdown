@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[React] 리액트 설치"
+title: "리액트 설치"
 date: 2020-12-14 17:48:36 +0530
 categories: React
 ---
@@ -9,10 +9,10 @@ categories: React
 
 ---
 
--   node.js
--   npm
--   npx
--   create-react-app(페이스북에서 만든 react 웹 개발용 boilerplate)
+- node.js
+- npm
+- npx
+- create-react-app(페이스북에서 만든 react 웹 개발용 boilerplate)
 
 -v 로 설치가 되었는지 확인
 

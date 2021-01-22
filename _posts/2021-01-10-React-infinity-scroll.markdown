@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[React] 무한 스크롤(Infinity Scroll)"
+title: "무한 스크롤(Infinity Scroll)"
 date: 2021-01-10 11:52:56 +0530
 categories: React
 ---

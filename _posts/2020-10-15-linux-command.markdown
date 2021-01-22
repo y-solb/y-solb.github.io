@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Linux] 리눅스 명령어"
+title: "리눅스 명령어"
 date: 2020-10-15 13:54:36 +0530
 categories: Linux
 ---

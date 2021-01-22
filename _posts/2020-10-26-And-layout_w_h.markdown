@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Android] layout_width와 layout_height 속성"
+title: "layout_width와 layout_height 속성"
 date: 2020-10-26 08:17:36 +0530
 categories: Android
 ---
