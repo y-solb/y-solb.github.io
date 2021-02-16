@@ -9,6 +9,8 @@ categories: Git
 
 원격 저장소에 올라온 변경 사항을 로컬 저장소로 가져온다.
 
+fetch + merge
+
 ## master의 최신 내용 pull해오기
 
 ---
