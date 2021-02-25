@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pull해오기"
+title: 'Pull해오기'
 date: 2021-02-14 23:13:41 +0530
 categories: Git
 ---
@@ -22,3 +22,9 @@ git merge master
 
 master 브랜치로 이동 후 원격 저장소 내용을 pull해온다.
 내 브랜치로 이동 후 master브랜치를 merge해준다.
+
+## 다른 브랜치 내용 pull해오기
+
+---
+
+git pull origin 다른 브랜치명
