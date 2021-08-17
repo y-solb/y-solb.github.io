@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'git commit message 규칙'
-date: 2021-05-28 15:05:41 +0530
-categories: Git
+date: 2021-05-28
+tags: [Git]
 ---
 
 # commit message
